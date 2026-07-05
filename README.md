@@ -110,6 +110,6 @@ Proyek kolaboratif ini dibangun bersama oleh tim:
 * 🛠️ **Apriadi Salim** (2410010605) - *Back End & Infra*
 * 👨‍💻 **Muhammad Reynaldy Abhista Putra** (2410010010) - *Front End*
 * 👨‍💻 **Moh Hafiz Anshari** (2410010142) - *Front End*
-* 👨‍💻 **M Reza Maulani Aditya** (2410010638) - *Back End*
+* 👨‍💻 **M Reza Maulani Aditya** (2410010638) - *Front End*
 
 > Dibuat dengan 💻 dan ☕ untuk memenuhi penilaian mata kuliah Pemrograman Berbasis Objek 1.
