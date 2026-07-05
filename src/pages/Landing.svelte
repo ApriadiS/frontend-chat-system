@@ -52,7 +52,7 @@
 			<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
 				<div class="lg:col-span-7 text-center lg:text-left space-y-6">
 					<div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-blue-50 text-blue-700 border border-blue-100 text-[10px] sm:text-xs font-semibold uppercase tracking-wider animate-pulse">
-						✨ UAS Komputasi Paralel Dan Terdistribusi Juli 2026 - PBO 1
+						✨ UAS Komputasi Paralel Dan Terdistribusi Juli 2026
 					</div>
 					<h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-tight">
 						Komunikasi Real-Time <br class="hidden sm:block" />
