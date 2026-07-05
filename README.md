@@ -112,4 +112,4 @@ Proyek kolaboratif ini dibangun bersama oleh tim:
 * 👨‍💻 **Moh Hafiz Anshari** (2410010142) - *Front End*
 * 👨‍💻 **M Reza Maulani Aditya** (2410010638) - *Front End*
 
-> Dibuat dengan 💻 dan ☕ untuk memenuhi penilaian mata kuliah Pemrograman Berbasis Objek 1.
+> Dibuat dengan 💻 dan ☕ untuk memenuhi penilaian mata kuliah Komputasi Paralel Dan Terdistribusi.
