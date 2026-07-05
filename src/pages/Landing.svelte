@@ -52,7 +52,7 @@
 			<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
 				<div class="lg:col-span-7 text-center lg:text-left space-y-6">
 					<div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-blue-50 text-blue-700 border border-blue-100 text-[10px] sm:text-xs font-semibold uppercase tracking-wider animate-pulse">
-						✨ UAS Parallel Juli 2026 - PBO 1
+						✨ UAS Komputasi Paralel Dan Terdistribusi Juli 2026 - PBO 1
 					</div>
 					<h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-tight">
 						Komunikasi Real-Time <br class="hidden sm:block" />
@@ -117,7 +117,7 @@
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="text-center mb-10">
 				<h2 class="text-[10px] sm:text-xs font-bold text-blue-400 uppercase tracking-widest mb-2">Tim Pengembang</h2>
-				<p class="text-2xl sm:text-3xl font-extrabold text-white">UAS Parallel Juli 2026</p>
+				<p class="text-2xl sm:text-3xl font-extrabold text-white">UAS Komputasi Paralel Dan Terdistribusi Juli 2026</p>
 			</div>
 			
 			<div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">

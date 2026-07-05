@@ -1,47 +1,115 @@
-# Svelte + TS + Vite
+# 💬 ChatMVP - Frontend Web Application
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+![Svelte](https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Recommended IDE Setup
+Selamat datang di repositori Frontend **ChatMVP**! Ini adalah antarmuka pengguna (UI) modern, responsif, dan *real-time* yang dibangun untuk memenuhi Ujian Akhir Semester mata kuliah Komputasi Paralel Dan Terdistribusi.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+Aplikasi ini berinteraksi langsung dengan backend Java (Javalin) via WebSocket dan menggunakan Supabase sebagai layanan Autentikasi terintegrasi.
 
-## Need an official Svelte framework?
+---
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+## ✨ Fitur Utama
 
-## Technical considerations
+- ⚡ **Real-Time WebSocket:** Pertukaran pesan instan tanpa jeda menggunakan API WebSocket native.
+- 🔐 **Secure Authentication:** Sistem Login, Register, dan Reset Password yang ditenagai oleh Supabase Auth.
+- 📱 **Mobile Responsive:** Tata letak antarmuka yang dioptimalkan secara penuh untuk perangkat seluler (Mobile-first) maupun layar Desktop menggunakan Tailwind CSS.
+- 💬 **Multi-Channel Chat:** Dukungan untuk Siaran Global (Broadcast), Obrolan Pribadi (Private), dan Obrolan Grup.
+- 🛡️ **Graceful Error Handling:** Umpan balik visual (Toast/Alert) secara langsung ketika pesan mengandung kata terlarang atau koneksi terputus.
 
-**Why use this over SvelteKit?**
+---
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+## 🛠️ Teknologi yang Digunakan
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+| Kategori | Teknologi | Deskripsi |
+| :--- | :--- | :--- |
+| **Framework** | **Svelte** | Framework reaktif berbasis komponen tanpa virtual DOM. |
+| **Build Tool** | **Vite** | Frontend tooling yang sangat cepat untuk *hot-reload* & *bundling*. |
+| **Styling** | **Tailwind CSS** | Framework CSS utility-first untuk desain responsif. |
+| **BaaS / Auth**| **Supabase** | Backend-as-a-Service untuk manajemen pengguna dan autentikasi. |
+| **Deployment**| **Vercel** | Hosting cloud yang dioptimalkan untuk Single Page Applications (SPA). |
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+---
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+## ⚙️ Konfigurasi Environment
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+Sebelum menjalankan proyek ini di lokal, Anda wajib membuat file `.env` di *root* direktori proyek. 
 
-**Why include `.vscode/extensions.json`?**
+> **Catatan:** Jangan pernah mengunggah kredensial asli ke repositori publik. Gunakan `.env` lokal untuk pengembangan.
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+Buat file `.env` dan isi dengan variabel berikut:
 
-**Why enable `allowJs` in the TS template?**
+```env
+# Konfigurasi Supabase (Dapatkan di Dashboard Supabase > Project Settings > API)
+VITE_SUPABASE_URL=https://[PROJECT_ID].supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsIn...[YOUR_ANON_KEY]
 
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
+# Konfigurasi WebSocket Backend (Gunakan IP VPS/Domain atau Localhost)
+VITE_WS_URL=ws://[IP_VPS_KAMU]:7070/chat
 
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
 ```
+
+---
+
+## 🚀 Cara Instalasi & Menjalankan di Lokal
+
+Pastikan komputer Anda sudah terinstal **Node.js** (versi 18+ direkomendasikan).
+
+1. **Kloning Repositori:**
+```bash
+git clone https://github.com/ApriadiS/frontend-chat-system.git
+cd frontend-chat-system
+
+```
+
+
+2. **Instalasi Dependensi:**
+```bash
+npm install
+
+```
+
+
+3. **Jalankan Development Server:**
+```bash
+npm run dev
+
+```
+
+
+*Aplikasi akan berjalan secara lokal, biasanya di `http://localhost:5173`.*
+
+---
+
+## 🌐 Panduan Deployment (Vercel)
+
+Proyek ini telah dikonfigurasi agar siap di-*deploy* ke **Vercel**.
+
+1. **Routing SPA:**
+File `vercel.json` telah disertakan di *root* repositori untuk mencegah masalah `404 Not Found` saat pengguna memuat ulang (*refresh*) halaman:
+```json
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+
+```
+
+
+2. **Environment Variables Vercel:**
+Saat menghubungkan repositori Github ke Vercel, pastikan Anda menambahkan ketiga variabel dari file `.env` di atas ke dalam menu **Settings > Environment Variables** di Dashboard Vercel sebelum menekan tombol *Deploy*.
+
+---
+
+## 👥 Tim Pengembang (UAS Komputasi Paralel Dan Terdistribusi July 2026)
+
+Proyek kolaboratif ini dibangun bersama oleh tim:
+
+* 🛠️ **Apriadi Salim** (2410010605) - *Back End & Infra*
+* 👨‍💻 **Muhammad Reynaldy Abhista Putra** (2410010010) - *Front End*
+* 👨‍💻 **Moh Hafiz Anshari** (2410010142) - *Front End*
+* 👨‍💻 **M Reza Maulani Aditya** (2410010638) - *Back End*
+
+> Dibuat dengan 💻 dan ☕ untuk memenuhi penilaian mata kuliah Pemrograman Berbasis Objek 1.
