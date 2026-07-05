@@ -117,3 +117,11 @@ Proyek kolaboratif ini dibangun bersama oleh tim:
 * 👨‍💻 **M Reza Maulani Aditya** (2410010638) - *Front End*
 
 > Dibuat dengan 💻 dan ☕ untuk memenuhi penilaian mata kuliah Komputasi Paralel Dan Terdistribusi.
+
+## Specifications
+
+- Frontend : [Svelte](https://svelte.dev) + [Vite](https://vite.dev) 
+- Backend : [Java](https://www.java.com) + [Javelin](https://javalin.io) ([Check Here](https://github.com/ApriadiS/Apriadi_Salim_2410010605_4A_PBO1-backend-chat-system.git))
+- Database : [Supabase](https://supabase.com)
+- Deployment Frontend : [Vercel](https://vercel.com)
+- Deployment Backend : [Google Cloud Platform](https://cloud.google.com)
