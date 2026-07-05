@@ -58,7 +58,7 @@ VITE_WS_URL=ws://[IP_VPS_KAMU]:7070/chat
 
 > ⚠️ **PERHATIAN (Ketergantungan Sistem):**
 > Aplikasi frontend ini **tidak dapat berjalan secara mandiri**. Anda diwajibkan untuk menjalankan server backend terlebih dahulu agar fitur autentikasi dan WebSocket dapat terhubung.
-> 👉 **[Kloning & Jalankan Repositori Backend Di Sini](https://github.com/ApriadiS/backend-chat-system.git)**
+> 👉 **[Kloning & Jalankan Repositori Backend Di Sini](https://github.com/ApriadiS/Apriadi_Salim_2410010605_4A_PBO1-backend-chat-system.git)**
 
 Jika backend sudah berjalan, pastikan komputer Anda sudah terinstal **Node.js** (versi 18+ direkomendasikan), lalu ikuti langkah berikut:
 
