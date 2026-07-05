@@ -56,11 +56,15 @@ VITE_WS_URL=ws://[IP_VPS_KAMU]:7070/chat
 
 ## 🚀 Cara Instalasi & Menjalankan di Lokal
 
-Pastikan komputer Anda sudah terinstal **Node.js** (versi 18+ direkomendasikan).
+> ⚠️ **PERHATIAN (Ketergantungan Sistem):**
+> Aplikasi frontend ini **tidak dapat berjalan secara mandiri**. Anda diwajibkan untuk menjalankan server backend terlebih dahulu agar fitur autentikasi dan WebSocket dapat terhubung.
+> 👉 **[Kloning & Jalankan Repositori Backend Di Sini](https://github.com/ApriadiS/backend-chat-system.git)**
+
+Jika backend sudah berjalan, pastikan komputer Anda sudah terinstal **Node.js** (versi 18+ direkomendasikan), lalu ikuti langkah berikut:
 
 1. **Kloning Repositori:**
 ```bash
-git clone https://github.com/ApriadiS/frontend-chat-system.git
+git clone [https://github.com/ApriadiS/frontend-chat-system.git](https://github.com/ApriadiS/frontend-chat-system.git)
 cd frontend-chat-system
 
 ```
