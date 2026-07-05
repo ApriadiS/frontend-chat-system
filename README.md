@@ -116,7 +116,7 @@ Proyek kolaboratif ini dibangun bersama oleh tim:
 * 👨‍💻 **Moh Hafiz Anshari** (2410010142) - *Front End*
 * 👨‍💻 **M Reza Maulani Aditya** (2410010638) - *Front End*
 
-> Dibuat dengan 💻 dan ☕ untuk memenuhi penilaian mata kuliah Komputasi Paralel Dan Terdistribusi.
+> Dibuat dengan 💻 dan ☕ untuk memenuhi penilaian mata kuliah Komputasi Paralel Dan Terdistribusi & Pemrograman Berbasis Object 1
 
 ## Specifications
 
