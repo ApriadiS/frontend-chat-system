@@ -141,12 +141,11 @@
 					<p class="text-[10px] sm:text-xs text-slate-400 font-mono mb-3">2410010142</p>
 					<span class="px-2.5 py-1 bg-indigo-500/20 text-indigo-300 text-[9px] sm:text-[10px] font-bold rounded-lg border border-indigo-500/30">Front End</span>
 				</div>
-
-				<div class="p-4 sm:p-5 rounded-2xl bg-slate-800 border border-slate-700 flex flex-col items-center text-center hover:border-blue-500/50 transition">
-					<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold flex items-center justify-center text-sm sm:text-lg mb-3">MR</div>
-					<p class="font-bold text-white text-xs sm:text-sm leading-tight mb-1">M. Reza Maulani A.</p>
+				<div class="p-4 sm:p-5 rounded-2xl bg-slate-800 border border-slate-700 flex flex-col items-center text-center hover:border-indigo-500/50 transition">
+					<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-indigo-500/20 text-indigo-400 font-bold flex items-center justify-center text-sm sm:text-lg mb-3">MR</div>
+					<p class="font-bold text-white text-xs sm:text-sm">M. Reza Maulani A.</p>
 					<p class="text-[10px] sm:text-xs text-slate-400 font-mono mb-3">2410010638</p>
-					<span class="px-2.5 py-1 bg-blue-500/20 text-blue-300 text-[9px] sm:text-[10px] font-bold rounded-lg border border-blue-500/30">Back End</span>
+					<span class="px-2.5 py-1 bg-indigo-500/20 text-indigo-300 text-[9px] sm:text-[10px] font-bold rounded-lg border border-indigo-500/30">Front End</span>
 				</div>
 			</div>
 		</div>
